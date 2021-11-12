@@ -7,6 +7,36 @@ body {
     text-decoration: none;
 }
 
+header {
+    min-height: 350px;
+    /* background-color: blue; */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centered horizontally since flex-direction was changed to column */
+    justify-content: center; /* Centered vertically since flex-direction was changed to column */
+    background: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)), url('https://free4kwallpapers.com/uploads/originals/2020/01/05/illustration-wallpaper.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.profile-image {
+    margin-top: 8px;
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border-radius: 50%;
+    background: url('https://i.giphy.com/media/kKefeMw8rbMVq/giphy.webp') no-repeat center/cover;
+}
+
+.profile-name {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.subtext {
+    margin-top: 8px;
+}
 
 
 footer {
