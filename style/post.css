@@ -7,7 +7,7 @@
 }
 
 #individual-post-date {
-    padding: 24px 0;
+    padding: 15px 0;
     border-top: 1px solid #f1f4f8;
     border-bottom: 1px solid #f1f4f8;
     padding-left: 16px;
@@ -16,8 +16,10 @@
 }
 
 #individual-post-content {
-    padding-top: 24px;
-    padding: 0 16px;
+    padding-top: 20px;
+    padding-left: 16px;
+    padding-right: 16px;
+    /* padding: 0 16px; */
     color: #495057;
     line-height: 1.4;
 }
